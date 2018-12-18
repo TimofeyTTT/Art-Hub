@@ -2,7 +2,7 @@
 
 
 -------------------------------------------------------------------------------------------------------------------------------
-### By Timothy Ortega,Sarah Tuitoek,Alex Kiagiri,Viviab Okall & Carey Francis
+### By Timothy Ortega,Sarah Tuitoek,Alex Kiagiri,Vivian Okall & Carey Francis
 
 -------------------------------------------------------------------------------------------------------------------------------
 
