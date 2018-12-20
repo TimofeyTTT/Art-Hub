@@ -43,6 +43,6 @@ To access this application on your command lines you need to clone it:
   
   
   ## Licence
-  This website is licensed under the MIT license
-  Copyright
+  This website is licensed under [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+ Copyright (C) 2018
 
