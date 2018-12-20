@@ -1,0 +1,158 @@
+body{
+  background-image: url("https://wallpapercave.com/wp/wp2611068.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-style: 'Cherry Swash', cursive;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  height:900px;
+  margin: auto;
+  text-align: center;
+  opacity: 0.9;
+}
+#about{
+  color: grey;
+  font-size: 18px;
+}
+#contact{
+  background-color: black;
+  color:white;
+}
+#contact:hover{
+  background-color: grey;
+}
+.card{
+  float:left;
+  background-color: white;
+  width:30%;
+  height: 900px;
+}
+#profile{
+  border-radius: 100%;
+}
+
+.container .interface{
+  background-color: inherit;
+  float:right;
+  width:60%;
+  height: 900px;
+}
+/* .container .together .post{
+  background-color: white;
+  width:60%;
+  height:300px;
+} */
+.container{
+  display:flex;
+  justify-content: flex-start;
+}
+.interface .post{
+  background-color: white;
+  width:90%;
+  height:300px;
+  padding:10px;
+  margin:0;
+  border: 6px 5px red;
+  opacity: 0.7
+}
+.interface .feed{
+  background-color: white;
+  width:90%;
+  height:550px;
+  padding:10px;
+  margin:0;
+  border: 6px 5px red;
+  opacity: 0.7;
+}
+.nav{
+  width:100%;
+  height:100px;
+  background-color: #000019;
+  opacity: 1.0;
+}
+.nav ul{
+  display: inline-block;
+}
+li{
+  text-decoration: none;
+  display: inline-block;
+  color:white;
+  padding: 50px;
+  font-size: 30px;
+  font-weight: bolder;
+  margin: 3px;
+}
+.card .profile .leaf{
+  border: none;
+}
+.container .interface #post{
+  border: none;
+  background-color: #000019;
+  color: white;
+  font-size: 20px;
+}
+.input{
+  /* display:none; */
+}
+.input #post{
+  width: 40%;
+  height: 200px;
+}
+.nav input[type=text]{
+  background-color: white;
+  color: red;
+  font-weight: bolder;
+}
+.search{
+  border: none;
+  background-color:white;
+  height:26px;
+}
+#search{
+  display:none;
+}
+#bio{
+  display: none;
+}
+#write{
+  display: none;
+  background-color: black;
+  color: white;
+}
+#fire{
+  margin: 0px;
+  border:none;
+  background-color: white;
+}
+#posted{
+  border:none;
+  border:collapse;
+  background-color: grey;
+}
+.nav ul li #home{
+  opacity: 1.0;
+}
+.nav ul li #logout{
+  opacity: 1.0;
+}
+.nav ul li a:active{
+  background-color: #00FFFF;
+  font-weight: bolder;
+}
+nav ul li a:hover{
+  background-color: black;
+}
+#writ{
+  background-color: black;
+  color: white;
+  display: none;
+}
+#fire{
+  display: none;
+}
+#live{
+  background-color: black;
+  color: white;
+}
