@@ -36,10 +36,12 @@ To access this application on your command lines you need to clone it:
   
   ## Known bugs.
   Currently there are no known bugs.
+  [![Known Vulnerabilities](https://snyk.io/test/github/dwyl/hapi-auth-jwt2/badge.svg?targetFile=package.json)](https://snyk.io/test/github/dwyl/hapi-auth-jwt2?targetFile=package.json)
   
   ## Link to live website.
   
   
   ## Licence
-  This website is licensed under the `MIT license
+  This website is licensed under the MIT license
+  Copyright
 
