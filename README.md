@@ -35,12 +35,33 @@ To access this application on your command lines you need to clone it:
 
   5.Type git clone the link you downloaded in step 2.
   
+  ## Technologies used
+  1.HTML
+  
+  2.CSS
+  
+  3.JAVASCRIPT AND JQUERY.
+  
+  4.BOOTSTRAP.
+  
+  ## Specifications
+  1.The application should enable the user to make a profile.
+  
+  2.The user should be able to share their ideas.
+  
+  3.The website should enable the user to like and review other ideas.
+  
+  4.The user should be able to have a short description about themselves.
+  
+  ## Future features
+  We are planning on making the website more interactive and social by introducing direct messages, comments, support of audio sharing
+  
   ## Known bugs.
   Currently there are no known bugs.
   [![Known Vulnerabilities](https://snyk.io/test/github/dwyl/hapi-auth-jwt2/badge.svg?targetFile=package.json)](https://snyk.io/test/github/dwyl/hapi-auth-jwt2?targetFile=package.json)
   
   ## Link to live website.
-  
+  https://timofeyttt.github.io/Art-Hub/
   
   ## Licence
   This website is licensed under [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
