@@ -1,7 +1,7 @@
 # ART-HUB.
 
 -------------------------------------------------------------------------------------------------------------------------------
-## Team members
+## Team members.
 
 Timothy Ortega
 
@@ -14,10 +14,32 @@ Vivian Okall
 Carey Francis
 
 -------------------------------------------------------------------------------------------------------------------------------
-## Description
+## Description.
 
 This is a website application basically made for any individual mostly the talented souls in coming up with poems,spoken words,songs and ideally rap articles.This brings them together in that they collaborate on their skills and talents towards social commitments.
 
-## How to use this application
+## How to use this application.
 If there is a new user he/she is allowed to register and there is also a log in button for those who already have accounts there.After the login part the individual can post his/her article and he/she can also view other people's work of art.
+
+## Set-up/Installation.
+To access this application on your command lines you need to clone it:
+
+  1.On the Github, navigate to the main page of the Repository.
+
+  2.Under the Repository name,click the clone or download.
+
+  3.Open Terminal.
+
+  4.Change the current working Directory to the location where you want it cloned .
+
+  5.Type git clone the link you downloaded in step 2.
+  
+  ## Known bugs.
+  Currently there are no known bugs.
+  
+  ## Link to live website.
+  
+  
+  ## Licence
+  This website is licensed under the `MIT license
 
