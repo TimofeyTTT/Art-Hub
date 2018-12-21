@@ -1,0 +1,112 @@
+body{
+  background-image:url("https://wallpapercave.com/wp/wp2611051.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body::before{
+  background-image:url("https://wallpapercave.com/wp/wp2611051.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  width:100vw;
+  height:100vh;
+  filter: blur(8px);
+  -webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  height: 100%;
+  width: 100%;
+}
+body h1{
+    font-family: 'Dancing Script', cursive;
+    color: black;
+    font-size: 100px;
+    font-weight: bolder;
+}
+ .register #login {
+  font-weight: bolder;
+  font-size: 40px;
+  color: white;
+  background-color: black;
+  border:none;
+}
+#register-user{
+  display: none;
+  position: absolute;
+  top:50%;
+  left:50%;
+  -webkit-transform:translate(-50%,-50%);
+  -moz-transform:translate(-50%,-50%);
+  -ms-transform:translate(-50%,-50%);
+  -o-transform:translate(-50%,-50%);
+  transform:translate(-50%,-50%);
+  width:400px;
+  height:700px;
+  padding:80px 40px;
+  background: rgba(0,0,0,6);
+  opacity: 0.7;
+
+}
+#login-user{
+  display:none;
+  top:50%;
+  left:50%;
+  -webkit-transform:translate(-50%,-50%);
+  -moz-transform:translate(-50%,-50%);
+  -ms-transform:translate(-50%,-50%);
+  -o-transform:translate(-50%,-50%);
+  transform:translate(-50%,-50%);
+  width:400px;
+  height:400px;
+  padding:80px 40px;
+  background: rgba(0,0,0,6);
+  opacity: 0.7;
+}
+#login-user label{
+  color: white;
+
+}
+#register-user input{
+  margin-bottom:20px;
+  width:100;
+}
+#register-user input[type=text]{
+  border:none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline:none;
+  height: 15px;
+  color:white;
+  font-size:15px;
+}
+#register-user label{
+  color:white;
+}
+#register-user input[type=password]{
+  border:none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline:none;
+  height: 15px;
+  color:white;
+  font-size:15px;
+}
+#register-user{
+  opacity:0.7;
+}
+#register-user #submit-user{
+  opacity:1;
+}
+.register #login:hover{
+  background-color: blue;
+}
+.register #register{
+  font-weight: bolder;
+  font-size: 40px;
+  color: white;
+  background-color: black;
+  border:none
+}
+ #register:hover{
+  background-color: blue;
+}
