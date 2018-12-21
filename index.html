@@ -1,110 +1,72 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="css/try.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="utf-8">
+    <title>Art-Hub</title>
+  </head>
+  <body>
+    <div class="bg-image">
+    <br>
+    <br>
+    <br>
+    <br>
 
-<head>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Cherry+Swash|Play" rel="stylesheet">
-  <meta charset="utf-8">
-  <title></title>
-</head>
+    <h1 align="center">Art-Hub</h1>
+        <div class="register" align="center" action="user.html">
+      <form id="login-user" align="center" ac>
+        <p><label for="new-first-name">Login to Website</label></p>
+          <p><label>User Name</label></p>
+          <p><input type="text" class="form-control" id="user-name"></p>
+          <p><label>Password</label></p>
+          <p><input type="password" class="form-control" id="pwd"></p>
+          <a href="pages/user.html"><input type="submit" class="btn btn-primary" id="submit-login" value="Login"></a>
+        </form>
 
-<body>
-  <div class="nav">
-    <ul>
-      <li> <a class="active" <button type="button" name="button" id="home"> <span class="glyphicon glyphicon-home"> </span> </button></a> </li>
-      <li><a <button type="button" name="button" id="logout"> <span class="glyphicon glyphicon-off"></span> </a> </button> </li>
-      <button class="search" type="button" name="button"> <span class="glyphicon glyphicon-search"></span> Search</button>
-      <input type="text" id="search" name="Search">
-    </ul>
+        <form id="register-user" action="user.html">
+          <p><label for="registration">Register New Account:</label></p>
+            <p><label>User Name</label></p>
+            <p><input type="text" class="form-control" id="user-name"></p>
+            <p><label>Password</label></p>
+            <p><input type="password" class="form-control" id="pwd1"></p>
+            <p><label>Confirm Password</label></p>
+            <p><input type="password" class="form-control" id="pwd2"></p>
+            <p><label>First Name</label></p>
+            <p><input type="text" class="form-control" id="first-name"></p>
+            <p><label>Last Name</label></p>
+            <p><input type="text" class="form-control" id="last-name"></p>
+            <p><label>Gender</label></p>
+            <p><select id="gender">
+                <option value="varMale">Male</option>
+                <option value="varFemale">Female</option>
+            </select></p>
+            <p><label>Type of Artist</label></p>
+            <p><select id="artist-type">
+                <option value="varPoet">Poet</option>
+                <option value="varRapper">Rapper</option>
+                <option value="varSinger">Singer</option>
+                <option value="varSongWriter">Song Writer</option>
+            </select></p>
+            <br>
+            <a href="styles.html"><input type="submit" class="btn btn-primary" id="submit-user" value="Create Account"></a>
+            <!-- <a href="user.html">Create Account</a> -->
+          </form>
+      <button align="center" type="button" id="login" name="button" >login</button>
+
+      <button align="center" type="button" id="register" name="button" >register</button>
+
+
+    </div>
+    </div>
   </div>
-  <div class="container">
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"></script>
+      <script type="text/javascript"src="Js/source.js">
 
-    <br>
-    <br>
-    <div class="card">
-      <div class="profile">
-        <img id="profile" src="https://images.unsplash.com/photo-1514091397859-48b5dbf562a4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" width=60% height="70%">
-        <button type="button" class="leaf" name="button"><span class="glyphicon glyphicon-leaf"></span></button>
-        <p></p>
-        <p id="name"> Stacy Tuitoek</p>
-        <p id="about"> Always thinking. </p>
-        <p id="bio"> My pen my sword. <input type="text" name="bio"></p>
-        <p><button type="button" id="contact" name="button">Contact</button></p>
-      </div>
-
-      <hr>
-      <div id="picture">
-        <img src="https://i.pinimg.com/564x/c3/b3/90/c3b3909633d47d9f2c50a1ec2e52f54b.jpg" width="10%" height="20%">
-        <img src="https://i.pinimg.com/236x/c1/97/47/c19747cdf832c4d33f3e56aa2f89965c.jpg" width=30% height="30%">
-        <img src="https://i.pinimg.com/564x/70/c7/62/70c7629def49aa91fdfbe0e1de46cdec.jpg" width="10%" height="5%">
-        <img src="https://i.pinimg.com/564x/f6/fa/44/f6fa44d8c59ceaefac4456918cb8514f.jpg" width="20" height="10%">
-        <img src="https://i.pinimg.com/564x/97/cc/a5/97cca5bd0de272d89822dbc193ced089.jpg" width="20" height="30%">
-        <img src="https://i.pinimg.com/564x/ab/59/20/ab5920f64e5e5aa1feea4ade891c462f.jpg" width="30%" height="20%">
-      </div>
-      <br>
-      <img src="https://i.pinimg.com/564x/50/be/d6/50bed686580de8739aaac64383c1baa6.jpg" width="30%" height="20%">
-      <img src="https://i.pinimg.com/564x/a3/0c/54/a30c54005a544304a5257654832c1ae8.jpg" width="40%" height="30%">
-    </div>
-
-    <div class="post">
-    </div>
-    <br>
-    <br>
-    <div class="interface">
-      <div class="post" align="center">
-        <button type="button" id="post" name="button">Post your article.........</button>
-
-        <div class="input">
-          <label for="post">Post</label>
-          <div class="write">
-            <textarea name="name" id="write" rows="8" cols="70">
-
-               </textarea>
-
-
-            <button type="button" id="posted" name="button">post</button>
-          </div>
-        </div>
-      </div>
-      <br>
-      <br>
-      <br>
-      <div class="feed">
-        <textarea name="name" id="writ" rows="8" cols="70">
-
-             </textarea>
-             <textarea name="name" id="live" rows="13" cols="70">
-                   @Stacy Ortega
-
-                 My feet were
-                 Bruised from
-                 Walking
-                 so far
-
-                 My heart
-                  was bruised
-                  from loving
-                   so long
-
-                  </textarea>
-                    <button type="button" name="button"> <span class="glyphicon glyphicon-fire"></span>
-
-        <p id="add"></p>
-        <button type="button" id="fire" name="button"> <span class="glyphicon glyphicon-fire"></span>
-        </button>
-      </div>
-    </div>
-
-
-  </div>
-  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="Js/source.js">
-
-  </script>
-</body>
-
+      </script>
+  </body>
 </html>
