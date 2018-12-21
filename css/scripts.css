@@ -1,0 +1,10 @@
+body{
+  background-image: url("https://wallpapercave.com/wp/wp2440166.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* font-family: 'Dancing Script', cursive; */
+}
+.jumbotron{
+  background-color: black;
+  opacity:0.3;
+}
